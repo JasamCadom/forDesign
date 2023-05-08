@@ -1,36 +1,195 @@
 {
-  "[font] 16": {
-    "body": {
-      "value": "16",
-      "type": "fontSizes"
-    },
-    "H1": {
-      "value": "{body}*2",
-      "type": "fontSizes"
-    },
-    "h2": {
-      "value": "24",
-      "type": "fontSizes"
-    }
-  },
-  "[font] 14": {},
-  "core": {
+  "[font] 14": {
     "[Device] IOS": {
       "value": "375",
       "type": "sizing",
       "description": "ios设备宽度"
     },
-    "un-font": {
-      "value": "PingFang SC",
-      "type": "fontFamilies"
+    "ios-gaodu": {
+      "value": "812",
+      "type": "sizing"
+    },
+    "body": {
+      "value": "14",
+      "type": "fontSizes"
+    },
+    "Regular": {
+      "value": "400",
+      "type": "fontWeights"
+    },
+    "Bold": {
+      "value": "600",
+      "type": "fontWeights"
+    },
+    "h6": {
+      "value": "{body}",
+      "type": "fontSizes"
+    },
+    "h5": {
+      "value": "{h6}+2",
+      "type": "fontSizes"
+    },
+    "h4": {
+      "value": "{h5}+2",
+      "type": "fontSizes"
+    },
+    "h3": {
+      "value": "{h4}+4",
+      "type": "fontSizes"
+    },
+    "h2": {
+      "value": "{h3}+4",
+      "type": "fontSizes"
+    },
+    "h1": {
+      "value": "{h2}+6",
+      "type": "fontSizes"
+    },
+    "Line Height": {
+      "body": {
+        "value": "{body}+6",
+        "type": "lineHeights"
+      },
+      "h1": {
+        "value": "{h1}+8",
+        "type": "lineHeights"
+      },
+      "h2": {
+        "value": "{h2}+6",
+        "type": "lineHeights"
+      },
+      "h3": {
+        "value": "{h3}+6",
+        "type": "lineHeights"
+      },
+      "h4": {
+        "value": "{h4}+6",
+        "type": "lineHeights"
+      },
+      "h5": {
+        "value": "{h5}+6",
+        "type": "lineHeights"
+      },
+      "h6": {
+        "value": "{h6}+6",
+        "type": "lineHeights"
+      },
+      "s1": {
+        "value": "{s1}+4",
+        "type": "lineHeights"
+      },
+      "s2": {
+        "value": "{s2}+4",
+        "type": "lineHeights"
+      }
+    },
+    "s1": {
+      "value": "{body}-2",
+      "type": "fontSizes"
+    },
+    "s2": {
+      "value": "{s1}-2",
+      "type": "fontSizes"
+    }
+  },
+  "[font] 16": {
+    "[Device] IOS": {
+      "value": "375",
+      "type": "sizing",
+      "description": "ios设备宽度"
+    },
+    "ios-gaodu": {
+      "value": "812",
+      "type": "sizing"
+    },
+    "body": {
+      "value": "16",
+      "type": "fontSizes"
+    },
+    "Regular": {
+      "value": "400",
+      "type": "fontWeights"
+    },
+    "Bold": {
+      "value": "600",
+      "type": "fontWeights"
+    },
+    "h6": {
+      "value": "{body}",
+      "type": "fontSizes"
+    },
+    "h5": {
+      "value": "{h6}+2",
+      "type": "fontSizes"
+    },
+    "h4": {
+      "value": "{h5}+2",
+      "type": "fontSizes"
+    },
+    "h3": {
+      "value": "{h4}+4",
+      "type": "fontSizes"
+    },
+    "h2": {
+      "value": "{h3}+4",
+      "type": "fontSizes"
+    },
+    "h1": {
+      "value": "{h2}+6",
+      "type": "fontSizes"
+    },
+    "Line Height": {
+      "body": {
+        "value": "{body}+6",
+        "type": "lineHeights"
+      },
+      "h1": {
+        "value": "{h1}+8",
+        "type": "lineHeights"
+      },
+      "h2": {
+        "value": "{h2}+6",
+        "type": "lineHeights"
+      },
+      "h3": {
+        "value": "{h3}+6",
+        "type": "lineHeights"
+      },
+      "h4": {
+        "value": "{h4}+6",
+        "type": "lineHeights"
+      },
+      "h5": {
+        "value": "{h5}+6",
+        "type": "lineHeights"
+      },
+      "h6": {
+        "value": "{h6}+6",
+        "type": "lineHeights"
+      },
+      "s1": {
+        "value": "{s1}+4",
+        "type": "lineHeights"
+      },
+      "s2": {
+        "value": "{s2}+4",
+        "type": "lineHeights"
+      }
+    },
+    "s1": {
+      "value": "{body}-2",
+      "type": "fontSizes"
+    },
+    "s2": {
+      "value": "{s1}-2",
+      "type": "fontSizes"
     }
   },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "[font] 16",
       "[font] 14",
-      "core"
+      "[font] 16"
     ]
   }
 }
